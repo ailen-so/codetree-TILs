@@ -1,8 +1,8 @@
-let ft = 30.48
-
 const fs = require("fs");
+let ft = 30.48
+let n = fs. readFileSync(0).toString();
+n = Number(n);
 
-let a = fs. readFileSync(0).toString();
-a = Number(a);
+let result = ft * n;
 
-console.log(`${ft}*a\.toFixed(1)`);
+console.log(result.toFixed(1));
